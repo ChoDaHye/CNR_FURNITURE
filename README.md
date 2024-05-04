@@ -6,10 +6,6 @@
   <br>
 </h1>
 
-## :calendar: 개발기간
-
-2024년 3월 19일 ~ 4월 21일 개발 진행
-
 ## 📌 목차
 1. [🖥️ 프로젝트 개요](#-프로젝트-개요)
 2. [📕 주요기능](#-주요기능)
@@ -23,11 +19,15 @@
   - 2024년 3월 19일 ~ 4월 21일 개발 진행
 
 ### 🔖프로젝트 주제
-  - 대상: ㅇㅇ
-  - 용도: ㅇㅇ
-  - 개발: ㅇㅇ
+  - 대상: 가구를 생산하고 제조하는 회사
+  - 용도: 회사의 MES 프로그램
+  - 선정 이유:
+    <br>
+      ① 가구 제조업이 다른 산업에 비해 복잡한 공정과 다양한 작업 단계를 포함함
+    <br>
+      ② 생산과 품질의 요구사항을 충족하고 자동화와 생산 효율이 필요하다고 생각함
 ### 📁프로젝트 구현 내용
-  - ㅇㅇ
+  - aaaaa
 ### ⚙️ 개발환경 및 도구
   - `JAVA 17`
   - `JDK 17.0.2`
@@ -38,8 +38,14 @@
   - **DevOps**: Maven, Git, GitHub
   - **Tools**: Discord, GoogleDrive, StarUML
 ### 🧑‍🤝‍🧑 멤버 구성
-|[배지현](팀장](https://github.com/jihyeon00)|[김다은(팀원)]()|[이시연(팀원)]()|[이현주(팀원)](https://github.com/icanbewhatever)|[정수하(팀원)](https://github.com/heyJSH)|[조다혜(팀원)](https://github.com/ChoDaHye)|
-|지현내용|다은내용|시연내용|현주내용|수하내용|다혜내용|
+|팀원명|프로필|담당업무|
+|---|---|---|
+|[배지현(팀장)](https://github.com/jihyeon00)|<p align="center"><img src="https://avatars.githubusercontent.com/u/120089047?v=4" width="100"></p>|생산관리, 작업관리, 작업자관리|
+|[김다은(팀원)](https://github.com/dan3319)|<p align="center"><img src="https://avatars.githubusercontent.com/u/156730588?v=4" width="100"></p>|설비관리, 설비점검|
+|[이시연(팀원)](https://github.com/sieoh)|<p align="center"><img src="https://avatars.githubusercontent.com/u/151722461?v=4" width="100"></p>|로그인, 권한관리|
+|[이현주(팀원)](https://github.com/icanbewhatever)|<p align="center"><img src="https://avatars.githubusercontent.com/u/139785614?v=4" width="100"></p>|제품/자재 정보관리, BOM 관리, 작업자 스케줄 조회|
+|[정수하(팀원)](https://github.com/heyJSH)|<p align="center"><img src="https://avatars.githubusercontent.com/u/150403977?v=4" width="100"></p>|자재/제품 재고 조회, 품질관리|
+|[조다혜(팀원)](https://github.com/ChoDaHye)|<p align="center"><img src="https://avatars.githubusercontent.com/u/151722511?v=4" width="100"></p>|제조계획지시, 제조수행지시, 공정정보관리|
 
 <br><br>
 
@@ -87,9 +93,8 @@
 <br><br>
 
 ## 🔧 아키텍처
-#### 수정필요!!!!!!!!!!!!!!
-그림 첨부 필요. 예시는 아래와 같다.<br>
-![image](https://github.com/heyJSH/Project-Meal_Kit_SpringBoot/assets/150403977/41d35377-005b-49ff-8df4-5669487e3ba3)
+####  * 서버 배포를 진행하지 않았음
+![C_R-FURNITURE-아키텍처](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/2e26b54e-86aa-4711-ad6d-11b6d36f420e)
 <br><br>
 
 ## 🏗️ ERD
