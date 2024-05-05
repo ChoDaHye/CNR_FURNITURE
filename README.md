@@ -107,5 +107,5 @@ DB와 ERD <br>
 <br><br>
 
 ## 📃 화면설계
-![image](https://github.com/jihyeon00/CNR_FURNITURE/assets/151722511/19df5dd1-2d6e-4afd-9d9a-7ad24a9794b8)
+![image](https://github.com/jihyeon00/CNR_FURNITURE/assets/151722511/82a106fa-13dc-406f-855e-4b79e6390aee)
 <br><br>
