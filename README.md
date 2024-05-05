@@ -13,6 +13,7 @@
 4. [🏗️ ERD](#-ERD)
 5. [⚠️ 트러블 슈팅](#-트러블-슈팅)
 6. [📃 화면설계](#-화면설계)
+7. [📽️ 작동 영상](#작동-영상)
       <br><br>
 
 ## 🖥️ 프로젝트 개요
@@ -109,3 +110,9 @@ DB와 ERD <br>
 ## 📃 화면설계
 ![image](https://github.com/jihyeon00/CNR_FURNITURE/assets/151722511/c57dd8ea-d13f-4f71-9211-bcd61a717c36)
 <br><br>
+
+## 📽️ 작동 영상
+[[📹 작동 영상]](https://www.canva.com/design/DAGDq7nGVqw/Kmv8NqKDv2eqmRYALFLcBQ/edit?utm_content=DAGDq7nGVqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+<br><br>
+
+
