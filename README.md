@@ -12,6 +12,7 @@
 3. [🔧 아키텍처](#-아키텍처)
 4. [🏗️ ERD](#-ERD)
 5. [⚠️ 트러블 슈팅](#-트러블-슈팅)
+6. [📃 화면설계](#-화면설계)
       <br><br>
 
 ## 🖥️ 프로젝트 개요
@@ -40,12 +41,12 @@
 ### 🧑‍🤝‍🧑 멤버 구성
 |팀원명|프로필|담당업무|
 |---|---|---|
-|[배지현(팀장)](https://github.com/jihyeon00)|<p align="center"><img src="https://avatars.githubusercontent.com/u/120089047?v=4" width="100"></p>|생산관리, 작업관리, 작업자관리|
-|[김다은(팀원)](https://github.com/dan3319)|<p align="center"><img src="https://avatars.githubusercontent.com/u/156730588?v=4" width="100"></p>|설비관리, 설비점검|
-|[이시연(팀원)](https://github.com/sieoh)|<p align="center"><img src="https://avatars.githubusercontent.com/u/151722461?v=4" width="100"></p>|로그인, 권한관리|
-|[이현주(팀원)](https://github.com/icanbewhatever)|<p align="center"><img src="https://avatars.githubusercontent.com/u/139785614?v=4" width="100"></p>|제품/자재 정보관리, BOM 관리, 작업자 스케줄 조회|
-|[정수하(팀원)](https://github.com/heyJSH)|<p align="center"><img src="https://avatars.githubusercontent.com/u/150403977?v=4" width="100"></p>|자재/제품 재고 조회, 품질관리|
-|[조다혜(팀원)](https://github.com/ChoDaHye)|<p align="center"><img src="https://avatars.githubusercontent.com/u/151722511?v=4" width="100"></p>|제조계획지시, 제조수행지시, 공정정보관리|
+|[배지현(팀장)](https://github.com/jihyeon00)|<p align="center"><img src="https://avatars.githubusercontent.com/u/120089047?v=4" width="100"></p>|회의 진행 및 일정·팀원 관리, 전체 설계 담당<br>RDBMS관리(OracleDB), 테이블 설계, 샘플데이터작성, ERD작성, 유즈케이스 작성<br>생산관리, 작업관리, 작업자관리|
+|[김다은(팀원)](https://github.com/dan3319)|<p align="center"><img src="https://avatars.githubusercontent.com/u/156730588?v=4" width="100"></p>|테이블 설계, 샘플데이터작성<br>설비관리, 설비점검|
+|[이시연(팀원)](https://github.com/sieoh)|<p align="center"><img src="https://avatars.githubusercontent.com/u/151722461?v=4" width="100"></p>|로고제작, 테이블 설계, 샘플데이터작성<br>로그인, 권한관리|
+|[이현주(팀원)](https://github.com/icanbewhatever)|<p align="center"><img src="https://avatars.githubusercontent.com/u/139785614?v=4" width="100"></p>|테이블 설계, 샘플데이터작성<br>제품/자재 정보관리, BOM 관리, 작업자 스케줄 조회|
+|[정수하(팀원)](https://github.com/heyJSH)|<p align="center"><img src="https://avatars.githubusercontent.com/u/150403977?v=4" width="100"></p>|테이블 설계, 샘플데이터작성<br>자재/제품 재고 조회, 품질관리|
+|[조다혜(팀원)](https://github.com/ChoDaHye)|<p align="center"><img src="https://avatars.githubusercontent.com/u/151722511?v=4" width="100"></p>|테이블 설계, ERD작성<br>제조계획지시, 제조수행지시, 공정정보관리|
 
 <br><br>
 
@@ -99,8 +100,12 @@
 
 ## 🏗️ ERD
 DB와 ERD <br>
-![image](https://github.com/heyJSH/Project-Meal_Kit_SpringBoot/assets/150403977/bcbfa9be-686b-4970-81d5-977aa1d2e7b5)
+![ERD](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/6e185a73-564b-4d12-ae31-2379761be4ab)
 <br><br>
 
 ## ⚠️ 트러블 슈팅
+<br><br>
+
+## 📃 화면설계
+![image](https://github.com/jihyeon00/CNR_FURNITURE/assets/151722511/19df5dd1-2d6e-4afd-9d9a-7ad24a9794b8)
 <br><br>
