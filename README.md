@@ -511,7 +511,75 @@ DB와 ERD <br>
 <br><br>
 
 ## ⚠️ 트러블 슈팅
-<br><br>
+<details>
+   <summary>트러블슈팅</b> (👈 Click)</summary>
+   <br>
+   <div markdown="1">
+      <h3>문제점</h3>
+      <b>제조지시 대량 데이터 처리</b>
+      <ul>
+         <li>하나의 제조 지시에는 여러 설비 위치별로 상이한 제조 지시 내용이 포함되어야 한다.</li>
+      </ul>
+      <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/4f3927de-980c-4948-957d-9f73567ba3e1" >  
+      <br>
+      <h3>해결방안</h3>
+      <b>트랜잭션 사용</b>
+      <ul>
+         <li>Java의 @Transactional 어노테이션을 사용하여 모든 INSERT 작업을 하나의 트랜잭션으로 관리한다. 이는 모든 데이터베이스 연산이 성공적으로 완료되거나, 실패 시 전체가 롤백되어 데이터 일관성을 유지한다.</li>
+      </ul>
+     <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/eab253d3-9913-495b-9683-dfea05262452" > 
+     <img src=" https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/f98eae70-3d9c-45c6-8253-b43e54db9b23" >      
+   </div>
+</details>
+<br>
+
+<details>
+   <summary>트러블슈팅</b> (👈 Click)</summary>
+   <br>
+   <div markdown="1">
+      <h3>문제점</h3>
+      <b>제조목록 선택시, 사용자 편의를 위한 고민:</b>
+      <ul>
+         <li>사용자가 제조지시에 관련된 계약 내역을 한번에 볼 수 있어야 된다고 생각</li>
+      </ul>   
+      <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/7a9bc20d-676f-42fc-8e99-922beb039f2c" >  
+      <br>
+      <h3>해결방안</h3>
+      <b>선택된 계약 정보를 서버로부터 </b>
+      <ul>
+         <li>조회 체크박스로 선택된 계약 ID들을 서버에 요청하여 해당 계약 정보를 조회하고, 응답 받은 데이터로 테이블을 업데이트</li>
+      </ul>
+           <ul>
+         <li>N 절의 조건으로 각 아이템 ID를 리스트에서 가져옴 ids 리스트 내 각 아이템을 item 변수로 순회</li>
+      </ul>
+           <ul>
+         <li>AJAX 요청을 통해 호출되며, 주어진 계약 ID 목록에 해당하는 계약 정보를 조회 동적으로 계약 정보를 로드할 때 사용한다. @param formattedIds 쉼표로 구분된 계약 ID 목록</li>
+      </ul>
+     <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/cff82807-39a7-46fe-9954-034cd82d5386" > 
+     <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/f87eca10-a033-4a35-890e-5877825c6664" >     
+     <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/b12dabd4-a646-443e-8e02-9afce1ecc264" >      
+   </div>
+</details>
+<br>
+
+<details>
+   <summary>트러블슈팅</b> (👈 Click)</summary>
+   <br>
+   <div markdown="1">
+      <h3>문제점</h3>
+      <b>계약 내역 다운시 한글 적용 오류</b>
+      <ul>
+         <li>계약 내역서를 PDF 다운받으면 한글이 적용이 안됨</li>
+      </ul>
+      <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/09046073-fcf7-461e-8265-0407be398fac" >  
+      <br>
+      <h3>해결방안</h3>
+      <b>jsPDF,autoTable 라이브러리 사용</b>
+      <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/7c69dddd-df72-4b0a-955d-2f0d95416635" > 
+      <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/cf6df0a6-e4dd-4477-99cc-9a3263279c98" >          
+   </div>
+</details>
+<br>
 
 ## 📖 파일명 설명 및 개발일정
 [[📑 파일명 설명 및 개발일정]](https://docs.google.com/spreadsheets/d/1f2Vgb-qmd-GQKiG3kfBYp12KGKcHwL41/edit?usp=sharing&ouid=106247567413866015973&rtpof=true&sd=true)
