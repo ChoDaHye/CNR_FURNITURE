@@ -512,7 +512,7 @@ DB와 ERD <br>
 
 ## ⚠️ 트러블 슈팅
 <details>
-   <summary>트러블슈팅</b> (👈 Click)</summary>
+   <summary>트러블슈팅1-다혜</b> (👈 Click)</summary>
    <br>
    <div markdown="1">
       <h3>문제점</h3>
@@ -534,7 +534,7 @@ DB와 ERD <br>
 <br>
 
 <details>
-   <summary>트러블슈팅</b> (👈 Click)</summary>
+   <summary>트러블슈팅2-다혜</b> (👈 Click)</summary>
    <br>
    <div markdown="1">
       <h3>문제점</h3>
@@ -550,7 +550,7 @@ DB와 ERD <br>
          <li>조회 체크박스로 선택된 계약 ID들을 서버에 요청하여 해당 계약 정보를 조회하고, 응답 받은 데이터로 테이블을 업데이트</li>
       </ul>
            <ul>
-         <li>N 절의 조건으로 각 아이템 ID를 리스트에서 가져옴 ids 리스트 내 각 아이템을 item 변수로 순회</li>
+         <li>IN 절의 조건으로 각 아이템 ID를 리스트에서 가져옴 ids 리스트 내 각 아이템을 item 변수로 순회</li>
       </ul>
            <ul>
          <li>AJAX 요청을 통해 호출되며, 주어진 계약 ID 목록에 해당하는 계약 정보를 조회 동적으로 계약 정보를 로드할 때 사용한다. @param formattedIds 쉼표로 구분된 계약 ID 목록</li>
@@ -563,7 +563,7 @@ DB와 ERD <br>
 <br>
 
 <details>
-   <summary>트러블슈팅</b> (👈 Click)</summary>
+   <summary>트러블슈팅3-다혜</b> (👈 Click)</summary>
    <br>
    <div markdown="1">
       <h3>문제점</h3>
