@@ -531,7 +531,6 @@ DB와 ERD <br>
      <img src=" https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/f98eae70-3d9c-45c6-8253-b43e54db9b23" >      
    </div>
 </details>
-<br>
 
 <details>
    <summary>트러블슈팅2-다혜</b> (👈 Click)</summary>
@@ -560,7 +559,6 @@ DB와 ERD <br>
      <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/b12dabd4-a646-443e-8e02-9afce1ecc264" >      
    </div>
 </details>
-<br>
 
 <details>
    <summary>트러블슈팅3-다혜</b> (👈 Click)</summary>
@@ -579,7 +577,7 @@ DB와 ERD <br>
       <img src="https://github.com/ChoDaHye/Algorithm-Study/assets/151722511/cf6df0a6-e4dd-4477-99cc-9a3263279c98" >          
    </div>
 </details>
-<br>
+<br><br>
 
 ## 📖 파일명 설명 및 개발일정
 [[📑 파일명 설명 및 개발일정]](https://docs.google.com/spreadsheets/d/1f2Vgb-qmd-GQKiG3kfBYp12KGKcHwL41/edit?usp=sharing&ouid=106247567413866015973&rtpof=true&sd=true)
